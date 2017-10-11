@@ -29,7 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		73BD220A1C58F87C00BC7AC6 /* HIVModelZimbabwe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HIVModelZimbabwe; sourceTree = BUILT_PRODUCTS_DIR; };
+		73BD220A1C58F87C00BC7AC6 /* HIVModelAfrica */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HIVModelAfrica; sourceTree = BUILT_PRODUCTS_DIR; };
 		73BD22151C58F94800BC7AC6 /* CParamReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CParamReader.cpp; sourceTree = "<group>"; };
 		73BD22191C58F96100BC7AC6 /* CParamReader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CParamReader.hpp; sourceTree = "<group>"; };
 		73BD221A1C58F96100BC7AC6 /* errorcoutmacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errorcoutmacro.h; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 		73BD22011C58F87C00BC7AC6 = {
 			isa = PBXGroup;
 			children = (
-				73BD220C1C58F87C00BC7AC6 /* HIVModelZimbabwe */,
+				73BD220C1C58F87C00BC7AC6 /* HIVModelAfrica */,
 				73BD220B1C58F87C00BC7AC6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,12 +77,12 @@
 		73BD220B1C58F87C00BC7AC6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				73BD220A1C58F87C00BC7AC6 /* HIVModelZimbabwe */,
+				73BD220A1C58F87C00BC7AC6 /* HIVModelAfrica */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		73BD220C1C58F87C00BC7AC6 /* HIVModelZimbabwe */ = {
+		73BD220C1C58F87C00BC7AC6 /* HIVModelAfrica */ = {
 			isa = PBXGroup;
 			children = (
 				73F132A81CBD140600D562A2 /* CancerArray.csv */,
@@ -109,15 +109,15 @@
 				73BD222D1C58F96100BC7AC6 /* person.h */,
 				73BD222E1C58F96100BC7AC6 /* Test.txt */,
 			);
-			path = HIVModelZimbabwe;
+			path = HIVModelAfrica;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		73BD22091C58F87C00BC7AC6 /* HIVModelZimbabwe */ = {
+		73BD22091C58F87C00BC7AC6 /* HIVModelAfrica */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73BD22111C58F87C00BC7AC6 /* Build configuration list for PBXNativeTarget "HIVModelZimbabwe" */;
+			buildConfigurationList = 73BD22111C58F87C00BC7AC6 /* Build configuration list for PBXNativeTarget "HIVModelAfrica" */;
 			buildPhases = (
 				73BD22061C58F87C00BC7AC6 /* Sources */,
 				73BD22071C58F87C00BC7AC6 /* Frameworks */,
@@ -127,9 +127,9 @@
 			);
 			dependencies = (
 			);
-			name = HIVModelZimbabwe;
+			name = HIVModelAfrica;
 			productName = "HIV Model Zimbabwe";
-			productReference = 73BD220A1C58F87C00BC7AC6 /* HIVModelZimbabwe */;
+			productReference = 73BD220A1C58F87C00BC7AC6 /* HIVModelAfrica */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -146,7 +146,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 73BD22051C58F87C00BC7AC6 /* Build configuration list for PBXProject "HIVModelZimbabwe" */;
+			buildConfigurationList = 73BD22051C58F87C00BC7AC6 /* Build configuration list for PBXProject "HIVModelAfrica" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -158,7 +158,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				73BD22091C58F87C00BC7AC6 /* HIVModelZimbabwe */,
+				73BD22091C58F87C00BC7AC6 /* HIVModelAfrica */,
 			);
 		};
 /* End PBXProject section */
@@ -263,21 +263,21 @@
 		73BD22121C58F87C00BC7AC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = HIVModelZimbabwe;
+				PRODUCT_NAME = HIVModelAfrica;
 			};
 			name = Debug;
 		};
 		73BD22131C58F87C00BC7AC6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = HIVModelZimbabwe;
+				PRODUCT_NAME = HIVModelAfrica;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		73BD22051C58F87C00BC7AC6 /* Build configuration list for PBXProject "HIVModelZimbabwe" */ = {
+		73BD22051C58F87C00BC7AC6 /* Build configuration list for PBXProject "HIVModelAfrica" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				73BD220F1C58F87C00BC7AC6 /* Debug */,
@@ -286,7 +286,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73BD22111C58F87C00BC7AC6 /* Build configuration list for PBXNativeTarget "HIVModelZimbabwe" */ = {
+		73BD22111C58F87C00BC7AC6 /* Build configuration list for PBXNativeTarget "HIVModelAfrica" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				73BD22121C58F87C00BC7AC6 /* Debug */,

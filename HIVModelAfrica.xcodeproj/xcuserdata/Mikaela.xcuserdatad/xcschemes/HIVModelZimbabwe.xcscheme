@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "73BD22091C58F87C00BC7AC6"
                BuildableName = "HIVModelZimbabwe"
-               BlueprintName = "HIVModelZimbabwe"
-               ReferencedContainer = "container:HIVModelZimbabwe.xcodeproj">
+               BlueprintName = "HIVModelAfrica"
+               ReferencedContainer = "container:HIVModelAfrica.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -34,8 +35,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "73BD22091C58F87C00BC7AC6"
             BuildableName = "HIVModelZimbabwe"
-            BlueprintName = "HIVModelZimbabwe"
-            ReferencedContainer = "container:HIVModelZimbabwe.xcodeproj">
+            BlueprintName = "HIVModelAfrica"
+            ReferencedContainer = "container:HIVModelAfrica.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -45,6 +46,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -57,8 +59,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "73BD22091C58F87C00BC7AC6"
             BuildableName = "HIVModelZimbabwe"
-            BlueprintName = "HIVModelZimbabwe"
-            ReferencedContainer = "container:HIVModelZimbabwe.xcodeproj">
+            BlueprintName = "HIVModelAfrica"
+            ReferencedContainer = "container:HIVModelAfrica.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -76,8 +78,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "73BD22091C58F87C00BC7AC6"
             BuildableName = "HIVModelZimbabwe"
-            BlueprintName = "HIVModelZimbabwe"
-            ReferencedContainer = "container:HIVModelZimbabwe.xcodeproj">
+            BlueprintName = "HIVModelAfrica"
+            ReferencedContainer = "container:HIVModelAfrica.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

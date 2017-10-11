@@ -87,7 +87,7 @@ int main(){
     srand(time(NULL));														// Random Number generator using PC time
     
     cout << MortRisk << endl;
-    cout << "Testing changes" << endl;
+    cout << "Testing changes 123" << endl;
     // Lets do some fitting!
     /*one   = RandomMinMax_3(100, 100)/100;
     two   = RandomMinMax_3(100, 100)/100;

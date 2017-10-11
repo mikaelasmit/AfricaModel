@@ -19,7 +19,9 @@ public:
     CParamReader();
     virtual ~CParamReader();	// destructor
     
+
     bool setNewFileName(std::string filePath);                                                        // return true or false
+
     char* getParamString(const char* paraName, int& nElements, int& rows, int& columns);        // This will output name, size, nr_rows, nr_col for the parameter from the text file
     
     

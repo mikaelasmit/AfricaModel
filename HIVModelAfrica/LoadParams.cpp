@@ -60,7 +60,9 @@ void loadCD4StartArray(){
     E(cout<< "The CD4_startarray Parameter is being loaded" << endl;)
     // 1. make a param reader object.
     CParamReader myReader;
+
     string fileName = ParamDirectory + "LoadParam.txt";
+
     
     if(! myReader.setNewFileName(fileName))
     {
@@ -128,6 +130,7 @@ void loadCD4ProgArray()
     // 1. make a param reader object.
     CParamReader myReader;
     string fileName = ParamDirectory + "LoadParam.txt";
+
     if(! myReader.setNewFileName(fileName))
     {
         cout << "File " << fileName << " doesn't exist." << endl;
@@ -188,7 +191,9 @@ void loadCD4DeathArray()
     
     // 1. make a param reader object.
     CParamReader myReader;
+
     string fileName = ParamDirectory + "LoadParam.txt";
+
     if(! myReader.setNewFileName(fileName))
     {
         cout << "File " << fileName << " doesn't exist." << endl;
@@ -319,7 +324,9 @@ void loadNrChildren()
     
     // 1. make a param reader object.
     CParamReader myReader;
+
     string fileName = ParamDirectory + "LoadParam.txt";
+
     if(! myReader.setNewFileName(fileName))
     {
         cout << "File " << fileName << " doesn't exist." << endl;
@@ -434,7 +441,9 @@ void loadAgeDistribution()
     
     // 1. make a param reader object.
     CParamReader myReader;
+
     string fileName = ParamDirectory + "LoadParam.txt";
+
     if(! myReader.setNewFileName(fileName))
     {
         cout << "File " << fileName << " doesn't exist." << endl;
@@ -495,7 +504,9 @@ void loadAgeMin()
     
     // 1. make a param reader object.
     CParamReader myReader;
+
     string fileName = ParamDirectory + "LoadParam.txt";
+
     if(! myReader.setNewFileName(fileName))
     {
         cout << "File " << fileName << " doesn't exist." << endl;
@@ -549,6 +560,7 @@ void loadAgeMax()
     // 1. make a param reader object.
     CParamReader myReader;
     string fileName = ParamDirectory + "LoadParam.txt";
+
     if(! myReader.setNewFileName(fileName))
     {
         cout << "File " << fileName << " doesn't exist." << endl;
@@ -629,6 +641,7 @@ void loadNCDArray(){
     
     // Else lets load the Array
     cout << "File " << &myfile << " successfully added" << endl;
+
     NCDArray = new double *[nr_NCDs];
     for (int row = 0; row<nr_NCDs; row++){				// This loop will read in every number to the right place
         string line;
@@ -644,7 +657,7 @@ void loadNCDArray(){
             convertor >>  NCDArray[row][col];
         }
     }
-   
+
     
     
     E(cout << "NCDArray array has been read in successfully! " << endl;)
@@ -706,6 +719,7 @@ void loadBirthArray(){
     
     E(cout << "Lets load the fertility array. " << endl;)
     ifstream myfile(ParamDirectory + "fertility.csv");
+
     
 
     // Lets include an error message in case file is not found
@@ -759,6 +773,7 @@ void loadDeathArray_Women(){
         exit(0);
     }
     else if (myfile.bad())
+
     {
         cout << "ERROR: The file Mortality Array Women was bad!" << endl;
         exit(0);
@@ -770,6 +785,11 @@ void loadDeathArray_Women(){
     for (int row = 0; row<301; row++){				// This loop will read in every number to the right place
         string line;
         getline(myfile, line);
+    E(cout << "File " << &myfile1 << " successfully added" << endl;)
+    DeathArray_Women = new double *[301];
+    for (int row = 0; row<301; row++){				// This loop will read in every number to the right place
+        string line;
+        getline(myfile1, line);
         stringstream iss(line);
         
         DeathArray_Women[row]=new double[121];
@@ -796,6 +816,8 @@ void loadDeathArray_Men()
     
     // Lets include an error message in case file is not found
     if (!myfile.is_open())
+    
+    // Lets include an error message in case file is not found
     {
         cout << "ERROR: The file Mortality Array Men was not found!" << endl;
         exit(0);

@@ -53,8 +53,10 @@ vector<event *> Events;
 
 int ART_start_yr=2004;
 
+
 string ParamDirectory = "/Users/mc1405/Dropbox/HIVModelZimbabwe/HIVModelZimbabwe/";
 string OutputDirectory = "/Users/mc1405/Dropbox/MATLAB copy/Demography_check/Test.csv";
+
 
 // THIS IS FOR FITTING ONLY - REOMVE ONCE DONE
 double one;
@@ -87,7 +89,9 @@ int main(){
     srand(time(NULL));														// Random Number generator using PC time
     
     cout << MortRisk << endl;
+
     cout << "Testing changes 123" << endl;
+
     // Lets do some fitting!
     /*one   = RandomMinMax_3(100, 100)/100;
     two   = RandomMinMax_3(100, 100)/100;
@@ -152,13 +156,14 @@ int main(){
     
     
     // Load Large Arrays
+
     loadNCDArray();
     loadBirthArray();
     loadDeathArray_Women();
     loadDeathArray_Men();
     loadHIVArray_Women();
     loadHIVArray_Men();
-    
+
     loadCancerArray();
     
     cout << "Section 2 - We finished loading the arrays" << endl;
@@ -228,10 +233,11 @@ int main(){
     
     //// --- Output the results in a csv file --- ////
     FILE* ProjectZim;
+
     //ProjectZim = fopen("/Users/mc1405/Desktop/Test.csv","w");    // Change name and file location here as applicable
     
     ProjectZim = fopen(OutputDirectory.c_str(), "w");
-    
+
     
     
     for (int i=0; i<total_population; i++) {								// Note: If adding more variables to be output, need to adapt the %x

@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73BD22161C58F94800BC7AC6 /* CParamReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73BD22151C58F94800BC7AC6 /* CParamReader.cpp */; };
+		73BD22301C58F96100BC7AC6 /* event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73BD221B1C58F96100BC7AC6 /* event.cpp */; };
+		73BD22311C58F96100BC7AC6 /* eventfunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73BD221D1C58F96100BC7AC6 /* eventfunctions.cpp */; };
+		73BD22321C58F96100BC7AC6 /* eventQ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73BD221F1C58F96100BC7AC6 /* eventQ.cpp */; };
+		73BD22331C58F96100BC7AC6 /* LoadParams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73BD22251C58F96100BC7AC6 /* LoadParams.cpp */; };
+		73BD22341C58F96100BC7AC6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73BD22271C58F96100BC7AC6 /* main.cpp */; };
+		73BD22351C58F96100BC7AC6 /* person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73BD222C1C58F96100BC7AC6 /* person.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		73BD22081C58F87C00BC7AC6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		73BD220A1C58F87C00BC7AC6 /* HIVModelAfrica */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HIVModelAfrica; sourceTree = BUILT_PRODUCTS_DIR; };
+		73BD22151C58F94800BC7AC6 /* CParamReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CParamReader.cpp; sourceTree = "<group>"; };
+		73BD22191C58F96100BC7AC6 /* CParamReader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CParamReader.hpp; sourceTree = "<group>"; };
+		73BD221A1C58F96100BC7AC6 /* errorcoutmacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errorcoutmacro.h; sourceTree = "<group>"; };
+		73BD221B1C58F96100BC7AC6 /* event.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = event.cpp; sourceTree = "<group>"; };
+		73BD221C1C58F96100BC7AC6 /* event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = event.h; sourceTree = "<group>"; };
+		73BD221D1C58F96100BC7AC6 /* eventfunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eventfunctions.cpp; sourceTree = "<group>"; };
+		73BD221E1C58F96100BC7AC6 /* eventfunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eventfunctions.h; sourceTree = "<group>"; };
+		73BD221F1C58F96100BC7AC6 /* eventQ.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eventQ.cpp; sourceTree = "<group>"; };
+		73BD22201C58F96100BC7AC6 /* eventQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eventQ.h; sourceTree = "<group>"; };
+		73BD22211C58F96100BC7AC6 /* fertility.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fertility.csv; sourceTree = "<group>"; };
+		73BD22221C58F96100BC7AC6 /* HIV_incidence_men.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HIV_incidence_men.csv; sourceTree = "<group>"; };
+		73BD22231C58F96100BC7AC6 /* HIV_incidence_women.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HIV_incidence_women.csv; sourceTree = "<group>"; };
+		73BD22241C58F96100BC7AC6 /* LoadParam.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LoadParam.txt; sourceTree = "<group>"; };
+		73BD22251C58F96100BC7AC6 /* LoadParams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoadParams.cpp; sourceTree = "<group>"; };
+		73BD22261C58F96100BC7AC6 /* LoadParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadParams.h; sourceTree = "<group>"; };
+		73BD22271C58F96100BC7AC6 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		73BD22291C58F96100BC7AC6 /* mortality_array_men.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mortality_array_men.csv; sourceTree = "<group>"; };
+		73BD222A1C58F96100BC7AC6 /* mortality_array_women.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mortality_array_women.csv; sourceTree = "<group>"; };
+		73BD222C1C58F96100BC7AC6 /* person.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = person.cpp; sourceTree = "<group>"; };
+		73BD222D1C58F96100BC7AC6 /* person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		73BD222E1C58F96100BC7AC6 /* Test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Test.txt; sourceTree = "<group>"; };
+		73F132A81CBD140600D562A2 /* CancerArray.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CancerArray.csv; sourceTree = "<group>"; };
+		73F132A91CBD140600D562A2 /* NCDArray.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NCDArray.csv; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73BD22071C58F87C00BC7AC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73BD22011C58F87C00BC7AC6 = {
+			isa = PBXGroup;
+			children = (
+				73BD220C1C58F87C00BC7AC6 /* HIVModelAfrica */,
+				73BD220B1C58F87C00BC7AC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73BD220B1C58F87C00BC7AC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73BD220A1C58F87C00BC7AC6 /* HIVModelAfrica */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73BD220C1C58F87C00BC7AC6 /* HIVModelAfrica */ = {
+			isa = PBXGroup;
+			children = (
+				73F132A81CBD140600D562A2 /* CancerArray.csv */,
+				73F132A91CBD140600D562A2 /* NCDArray.csv */,
+				73BD22151C58F94800BC7AC6 /* CParamReader.cpp */,
+				73BD22191C58F96100BC7AC6 /* CParamReader.hpp */,
+				73BD221A1C58F96100BC7AC6 /* errorcoutmacro.h */,
+				73BD221B1C58F96100BC7AC6 /* event.cpp */,
+				73BD221C1C58F96100BC7AC6 /* event.h */,
+				73BD221D1C58F96100BC7AC6 /* eventfunctions.cpp */,
+				73BD221E1C58F96100BC7AC6 /* eventfunctions.h */,
+				73BD221F1C58F96100BC7AC6 /* eventQ.cpp */,
+				73BD22201C58F96100BC7AC6 /* eventQ.h */,
+				73BD22221C58F96100BC7AC6 /* HIV_incidence_men.csv */,
+				73BD22231C58F96100BC7AC6 /* HIV_incidence_women.csv */,
+				73BD22211C58F96100BC7AC6 /* fertility.csv */,
+				73BD22241C58F96100BC7AC6 /* LoadParam.txt */,
+				73BD22251C58F96100BC7AC6 /* LoadParams.cpp */,
+				73BD22261C58F96100BC7AC6 /* LoadParams.h */,
+				73BD22271C58F96100BC7AC6 /* main.cpp */,
+				73BD22291C58F96100BC7AC6 /* mortality_array_men.csv */,
+				73BD222A1C58F96100BC7AC6 /* mortality_array_women.csv */,
+				73BD222C1C58F96100BC7AC6 /* person.cpp */,
+				73BD222D1C58F96100BC7AC6 /* person.h */,
+				73BD222E1C58F96100BC7AC6 /* Test.txt */,
+			);
+			path = HIVModelAfrica;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73BD22091C58F87C00BC7AC6 /* HIVModelAfrica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73BD22111C58F87C00BC7AC6 /* Build configuration list for PBXNativeTarget "HIVModelAfrica" */;
+			buildPhases = (
+				73BD22061C58F87C00BC7AC6 /* Sources */,
+				73BD22071C58F87C00BC7AC6 /* Frameworks */,
+				73BD22081C58F87C00BC7AC6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HIVModelAfrica;
+			productName = "HIV Model Zimbabwe";
+			productReference = 73BD220A1C58F87C00BC7AC6 /* HIVModelAfrica */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73BD22021C58F87C00BC7AC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Mikaela Smit";
+				TargetAttributes = {
+					73BD22091C58F87C00BC7AC6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 73BD22051C58F87C00BC7AC6 /* Build configuration list for PBXProject "HIVModelAfrica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 73BD22011C58F87C00BC7AC6;
+			productRefGroup = 73BD220B1C58F87C00BC7AC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73BD22091C58F87C00BC7AC6 /* HIVModelAfrica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73BD22061C58F87C00BC7AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73BD22301C58F96100BC7AC6 /* event.cpp in Sources */,
+				73BD22311C58F96100BC7AC6 /* eventfunctions.cpp in Sources */,
+				73BD22331C58F96100BC7AC6 /* LoadParams.cpp in Sources */,
+				73BD22161C58F94800BC7AC6 /* CParamReader.cpp in Sources */,
+				73BD22321C58F96100BC7AC6 /* eventQ.cpp in Sources */,
+				73BD22351C58F96100BC7AC6 /* person.cpp in Sources */,
+				73BD22341C58F96100BC7AC6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		73BD220F1C58F87C00BC7AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		73BD22101C58F87C00BC7AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		73BD22121C58F87C00BC7AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = HIVModelAfrica;
+			};
+			name = Debug;
+		};
+		73BD22131C58F87C00BC7AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = HIVModelAfrica;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73BD22051C58F87C00BC7AC6 /* Build configuration list for PBXProject "HIVModelAfrica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73BD220F1C58F87C00BC7AC6 /* Debug */,
+				73BD22101C58F87C00BC7AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73BD22111C58F87C00BC7AC6 /* Build configuration list for PBXNativeTarget "HIVModelAfrica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73BD22121C58F87C00BC7AC6 /* Debug */,
+				73BD22131C58F87C00BC7AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73BD22021C58F87C00BC7AC6 /* Project object */;
+}
